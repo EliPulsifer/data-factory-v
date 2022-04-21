@@ -1,0 +1,7 @@
+{
+	"name": "AzureBlobStorage481",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/956b0863-4ab7-4e5c-a017-5a8dec6d39b4/resourceGroups/eli-sftp-test/providers/Microsoft.Storage/storageAccounts/elipsftptest",
+		"groupId": "blob"
+	}
+}
