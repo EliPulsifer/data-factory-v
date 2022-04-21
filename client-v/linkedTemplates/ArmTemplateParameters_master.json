@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "client-v"
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"Sftp1_password": {
+			"value": ""
+		},
+		"AzureBlobStorage1_properties_typeProperties_serviceEndpoint": {
+			"value": "https://elipsftptest.blob.core.windows.net"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://client1datalake.dfs.core.windows.net"
+		},
+		"Sftp1_properties_typeProperties_host": {
+			"value": "https://elipsftptest.blob.core.windows.net"
+		},
+		"Sftp1_properties_typeProperties_userName": {
+			"value": "scythen"
+		},
+		"AzureBlobStorage481_properties_privateLinkResourceId": {
+			"value": "/subscriptions/956b0863-4ab7-4e5c-a017-5a8dec6d39b4/resourceGroups/eli-sftp-test/providers/Microsoft.Storage/storageAccounts/elipsftptest"
+		},
+		"AzureBlobStorage481_properties_groupId": {
+			"value": "blob"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
